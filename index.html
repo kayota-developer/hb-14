@@ -187,39 +187,39 @@
                 <div class="w-10 h-10 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-xl">
                     <i class="fa-solid fa-passport"></i>
                 </div>
-                <h3 class="font-bold text-white text-base">Паспортный Уровень 🆔</h3>
-                <p class="text-xs text-slate-400 leading-relaxed">
-                    Теперь ты официально взрослый! Желаю, чтобы фотка в паспорте получилась идеальной с первого раза, а все двери открывались легко!
+                <h3 class="font-bold text-white text-base">Терь те 14 🆔</h3>
+                <p class="text-xs texфt-slate-400 leading-relaxed">
+                    Не забывай что нужно идти оформлять паспорт и тебя официально могут забрать на фро.. кхм ладно не будем о плохом)).
                 </p>
             </div>
 
             <div class="tg-card p-4 rounded-2xl border tg-border space-y-2 hover:border-amber-500/40 transition">
                 <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl">
-                    <i class="fa-solid fa-gamepad"></i>
+                    <i class="fa-solid fa-wifi"></i>
                 </div>
-                <h3 class="font-bold text-white text-base">Топовый Гейминг & Катки 🎯</h3>
+                <h3 class="font-bold text-white text-base">Ахуенный пинг 🎯</h3>
                 <p class="text-xs text-slate-400 leading-relaxed">
-                    Пусть пинг всегда будет низким, девайсы мощными, тиммейты адекватными, а победные серии — бесконечными!
+                    Желаю маленького пинга и хорошего инета.
                 </p>
             </div>
 
             <div class="tg-card p-4 rounded-2xl border tg-border space-y-2 hover:border-green-500/40 transition">
                 <div class="w-10 h-10 rounded-xl bg-green-500/10 text-green-400 flex items-center justify-center text-xl">
-                    <i class="fa-solid fa-bolt"></i>
+                    <i class="fa-solid fa-desktop"></i>
                 </div>
-                <h3 class="font-bold text-white text-base">Максимум Энергии ⚡</h3>
+                <h3 class="font-bold text-white text-base">Компудахтер 🖥️</h3>
                 <p class="text-xs text-slate-400 leading-relaxed">
-                    Учёба без заморочек, крутые тусовки с друзьями, топовый шмот и бесконечный баф на удачу по жизни!
+                    Желаю тебе чтобы его быстрее купили и ты мог легче задротить в айзека))
                 </p>
             </div>
 
             <div class="tg-card p-4 rounded-2xl border tg-border space-y-2 hover:border-purple-500/40 transition">
                 <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl">
-                    <i class="fa-solid fa-crown"></i>
+                    <i class="fa-solid fa-user-group"></i>
                 </div>
-                <h3 class="font-bold text-white text-base">Верные Друзья 👑</h3>
+                <h3 class="font-bold text-white text-base">Ахуенных друзей 👑</h3>
                 <p class="text-xs text-slate-400 leading-relaxed">
-                    Окружай себя только теми, кто поддержат любую лютую идею и всегда будут рядом на одной волне!
+                    Чтобы не было никаких кидалов в жизни и всё было хорошо!
                 </p>
             </div>
         </div>
@@ -228,13 +228,13 @@
         <div class="pt-2 space-y-2.5">
             <button onclick="triggerFireworks()" class="w-full py-3.5 px-4 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-bold text-sm rounded-2xl shadow-lg transition active:scale-[0.98] flex items-center justify-center space-x-2">
                 <i class="fa-solid fa-fire text-amber-300 text-base"></i>
-                <span>ЗАПУСТИТЬ ПРАЗДНИЧНЫЙ САЛЮТ! 🎆</span>
+                <span>Запустить салют 🎆</span>
             </button>
 
             <div class="grid grid-cols-2 gap-2.5">
                 <button onclick="toggleMusic()" class="py-3 px-3 bg-[#17212b] hover:bg-[#242f3d] border tg-border text-slate-200 font-semibold text-xs rounded-xl transition active:scale-95 flex items-center justify-center space-x-2">
                     <i class="fa-solid fa-compact-disc text-amber-400 text-sm"></i>
-                    <span>Включить Вайб 🎵</span>
+                    <span>Включить хуйню 🎵</span>
                 </button>
                 <button onclick="triggerConfetti()" class="py-3 px-3 bg-[#17212b] hover:bg-[#242f3d] border tg-border text-slate-200 font-semibold text-xs rounded-xl transition active:scale-95 flex items-center justify-center space-x-2">
                     <i class="fa-solid fa-burst text-sky-400 text-sm"></i>
@@ -588,7 +588,7 @@
             } else if (type === 'auto' && score >= autoCost) {
                 score -= autoCost;
                 autoPointsPerSec += 5;
-                autoCost = Math.floor(autoCost * 2.2);
+                autoCost = Math.floorautoCost * 2.2);
                 document.getElementById('cost-auto').innerText = autoCost;
                 playSuccessSound();
             }
